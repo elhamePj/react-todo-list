@@ -1,38 +1,179 @@
-.App {
+
+body{
+  font-family: 'Caveat', cursive;
+  margin: 0;
+}
+
+.container{
+
+  background-color: #EEEEEE;
+   
+}
+main{
+  height: 82vh;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.darkContainer{
+  background-color: #1B2E3C
+}
+
+.headerContainer{
+  max-width: 1280px;
+}
+header{
+  height: 18vh;
+  width: 100vw;
+  background-color: #658864;
   text-align: center;
+  padding: 20px ;
+  color: white;
+  box-sizing: border-box;
+} 
+.darkHeader{
+background-color: #0C0C1E;
+color: #F3E3E2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.themeBtn{
+  float: left;
+  font-Size: x-large;
+  background: none;
+  border: none;
+  color: #dddd;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.darkThemeBtn{
+  color: #74112F;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.checkIcon{
+color: #658864;
+font-size: large;
+margin-right: 5px;
+}
+
+
+.darkTaskCounter{
+  color: #F3E3E2;
+}
+
+.darkCheckIcon{
+color: #F3E3E2;
+}
+
+ .listContainer{ 
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.list{
+ width: 80%;
+ padding: 8px;
+ margin-bottom: 10px;
+ border: 3px solid #DDDDDD
+}
+
+.darkList{
+  border: 3px solid #0C0C1E ;
+  color:#F3E3E2
+}
+ 
+.list:hover{
+  background-color: #B7B78A;
+}
+
+.darkList:hover{
+  background-color:#74112F ;
+}
+
+.deleteBtn{
+  float: right;
+  font-size: medium;
+  color: #C75643;
+  border: none;
+  background: none;
+}
+
+.darkDeleteBtn{
+  color:#0C0C1E;
+}
+
+.deleteBtn:hover{
+font-size: x-large;
+}
+
+.checkbox{
+  accent-color:#658864;
+}
+
+.darkCheckbox{
+  accent-color:#74112F;
+}
+
+ .checkedTask{
+  text-decoration: line-through;
+ }
+
+.addBox{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 15vh;
 }
 
-.App-link {
-  color: #61dafb;
+.input{
+  font-family: 'Caveat', cursive;
+  border:2px solid #658864;
+  padding:8px;
+  width: 70vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.darkInput{
+  border:1px solid #0C0C1E;
+  background-color:#0C0C1E;
+  color: #F3E3E2;
+  
 }
+
+input:focus{
+  outline: 0;
+  border:3px solid #658864 ;
+}
+
+.darkInput:focus{
+  border:3px solid #74112F;
+  outline: 0;
+ 
+}
+
+.addBtn{
+    font-family: 'Caveat', cursive;
+    cursor:pointer;
+    font-size:13px;
+    text-align: center;
+    padding: 8px;
+    margin-left: 3px;
+    border: 2px solid #658864;
+    background-color: #658864;
+   
+  }  
+
+  .darkAddBtn{
+    border: 2px solid #74112F;
+    background-color: #74112F;
+    color: #F3E3E2;
+    
+  }
+  
+
+
+
+
