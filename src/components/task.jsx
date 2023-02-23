@@ -11,7 +11,6 @@ const Task = ({ title, done, index, id }) => {
 
   return (
     <div className={toggle ? "list darkList" : "list"}>
-      {/* <span style={{ fontSize: 20 }}>{`${index + 1}-`}</span> */}
       <input
         className={toggle ? "checkbox darkCheckbox" : "checkbox"}
         type="checkbox"
