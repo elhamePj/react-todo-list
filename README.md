@@ -16,16 +16,16 @@ https://elhamepj.github.io/react-todo-list/
    ## installation
 If you want to try this project yourself:
 <br>
-<li>
-  Download Node.js Installer via https://nodejs.org/en/. 
-  <li>
-Install Node.js and NPM from Browser 
-    <li>
-Install Git on your machine, via https://git-scm.com/downloads.
-      <li>
-Clone this repository to your machine.
-        <li>
-Run npm install on the terminal, inside the folder where you downloaded the project, to install all used dependencies.
-          <li>
-Run npm start to run the project on your browser.
+
+ 1- Download Node.js Installer via https://nodejs.org/en/. 
+  
+2- Install Node.js and NPM from Browser 
+ 
+3- Install Git on your machine, via https://git-scm.com/downloads.
+
+4- Clone this repository to your machine.
+        
+5- Run npm install on the terminal, inside the folder where you downloaded the project, to install all used dependencies.
+          
+6- Run npm start to run the project on your browser.
 
