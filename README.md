@@ -11,7 +11,7 @@ https://elhamepj.github.io/react-todo-list/
     <li>
   check task as a done task via checkbox
       <li>
-  apply dark and light theme
+  apply dark and light mode
         
    ## installation
 If you want to try this project yourself:
